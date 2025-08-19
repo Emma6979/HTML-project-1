@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMMANUEL</title>
+</head>
+<body>
+    <header class="home">
+        <h1>Emmanuel</h1>
+        <p>Front-end Developer . Problem Solver . Lifelong Learner</p>
+        <nav arial-label="Primary">
+            <ul>
+                <li><a>home</a></li>
+                <li><a>about</a></li>
+                <li><a>work</a></li>
+                <li><a>resume</a></li>
+                <li><a href="contact">contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+    <main>
+        <!--ABOUT-->
+        <section class="about" aria-labelledby="about-heading">
+            <h2 class="about-heading">About</h2>
+            <article>
+                <p>
+                    Hello! I,m<strong>Emmanuel</strong>, a developer who enjoys building accessible, user-friendly <br>
+                    web experiences. I focus on HTML, CSS, and Javascript.
+                </p>
+                <h3>Quick facts</h3>
+                <ul>
+                    <li>Based in: Your City</li>
+                    <li>Interests: UI, accessibilty, and performance</li>
+                    <li>Learning: Typescript and automated testing</li>
+                </ul>
+            </article>
+
+            <aside>
+                <h3>Intro Video & Audio</h3>
+
+                <!--Video-->
+                <video controls width="480" poster="">
+                    <source src="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=1226s" type="video/mp4"/>
+                </video>
+                <!--Audio-->
+                <audio controls>
+                    <source src="media/theme.mp3" type="mpeg"/>
+                    <p>Your browser does not support the audio element.</p>
+                </audio>
+
+            </aside>
+        </section>
+           <hr/>
+           <!--Work-->
+           <section>
+            <h2 class="work-heading">Work</h2>
+            <article>
+                <header>
+                    <h3>Project One-Portfolio Site</h3>
+                    <p><time datetime="2025-08">August 2025</time></p>
+                </header>
+                <p>
+                    A simple, responsive portfolio built with semantic HTML.<br>
+                    Features internal navigation, embedded media and a contact form.
+
+                </p>
+                <ul>
+                    <li>Role: Designer and Developer</li>
+                    <li>Stack: HTML, CSS, Javascript</li>
+                    <li>
+                        Local link: <a href="contact">contact me</a>to learn more.
+                    </li>
+                </ul>
+            </article>
+           <article>
+             <header>
+                <h3>Project Two-Task Tracker</h3>
+                <p><time datetime="2025-04">time</time></p>
+            </header>
+            <p>
+                A lightweight task tracker. Users can add tasks, set priorities, <br>
+                and export summaries.
+            </p>
+            <ol>
+                <li>Plan the data model</li>
+                <li>Build componenets</li>
+                <li>Test accessibility</li>
+                <li>Deploy</li>
+            </ol>
+           </article>
+           </section>
+           <hr/>
+
+           <!--Rwsume-->
+           <section class="resume" aria-labelledby="resume-heading">
+            <h2 cklass="resume-heading">Resume</h2>
+            <article>
+                <h3>Experience</h3>
+                <ul>
+                    <li>
+                        <strong>Font-end Developer</strong> Example Co.(2024-present)
+                        <ul>
+                            <li>Built and maintained UI componenets</li>
+                            <li>Improved lighthouse performance scores</li>
+                            <li>Worked closely with designers and QA</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h3>Education</h3>
+                <p><strong>B.Sc</strong> in computer science, ESUT</p>
+                <p>
+                Download a local copy of my resume:
+                <a href="files/EMMANUEL-Resume.pdf" download>Resume (PDF)</a>
+
+                </p>
+            </article>
+           </section>
+           <hr/>
+
+           <!--Contact-->
+           <section class="contact" aria-labelledby="contact-heading">
+            <h2 class="contact-heading">Contact</h2>
+            <p>
+                Use the form below to reach me. All fields marked with * are vrequired.
+            </p>
+            <form>
+                <fieldset>
+                    <legend>Your details</legend>
+                    <label for="name">Full name *</label><br>
+                    <input class="name" name="name" type="text" required><br><br>
+
+                    <label for="email">Email *</label><br>
+                        <select class="topic" name="topic">
+                            <option value="general">General</option>
+                            <option value="project">Project inquiry</option>
+                            <option value="speaking">Speaking</option>
+                        </select><br><br>
+                    
+                </fieldset>
+                <button type="submit">Send message</button>
+                <button type="reset">Reset</button>
+            </form>
+            <address>
+                <p>
+                    Email: <a href="mailto:you@example.com">you@example.com</a><br>
+                    Phone: <a href="tel:+234 700 000 0000">+234 700 000 0000</a>
+                </p>
+            </address>
+           </section>
+    </main>
+
+    <footer>
+        <p>
+            <time datetime="2025">2025</time> EMMANUEL. All rights reserved.
+            <a href="home">Back to top</a>
+        </p>
+    </footer>
+    
+</body>
+</html>
