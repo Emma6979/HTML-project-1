@@ -1,0 +1,73 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 15px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    color: #333;
+
+}
+.portfolio-heading{
+   display: flex;
+   justify-content: space-between;
+
+
+}
+/* Navbar styling */
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    background-color: #004466;
+    padding: 15px 10px;
+}
+ .navbar a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+/* Section styling */
+.about, .work, .resume, .contact , .footer {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about, .work, .resume, .contact ,.footer {
+    color: #004466;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004466;
+    color: white;
+    margin-top: 30px;
+}
+
+/* Creative touch */
+.about {
+    border-left: 5px solid #ff6600;
+}
+.work {
+    border-left: 5px solid #009966;
+}
+.resume {
+    border-left: 5px solid #0066cc;
+}
+.contact {
+    border-left: 5px solid #9933cc;
+}

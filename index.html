@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EMMANUEL</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <header class="home">
-        <h1>Emmanuel</h1>
-        <p>Front-end Developer . Problem Solver . Lifelong Learner</p>
-        <nav arial-label="Primary">
+       <div class="portfolio-heading"> 
+        <div>
+            <h1>Emmanuel</h1>
+        </div>
+        <br>
+       <div>
+         <p>Front-end Developer . Problem Solver . Lifelong Learner</p>
+       </div>
+        </div>
+
+        <nav arial-label="Primary" class="navbar">
             <ul>
                 <li><a>home</a></li>
                 <li><a>about</a></li>
@@ -27,7 +37,7 @@
             <h2 class="about-heading">About</h2>
             <article>
                 <p>
-                    Hello! I,m<strong>Emmanuel</strong>, a developer who enjoys building accessible, user-friendly <br>
+                    Hello! I'm <strong>Emmanuel</strong>, a developer who enjoys building accessible, user-friendly <br>
                     web experiences. I focus on HTML, CSS, and Javascript.
                 </p>
                 <h3>Quick facts</h3>
@@ -41,11 +51,11 @@
             <aside>
                 <h3>Intro Video & Audio</h3>
 
-                <!--Video-->
+                
                 <video controls width="480" poster="">
                     <source src="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=1226s" type="video/mp4"/>
                 </video>
-                <!--Audio-->
+                
                 <audio controls>
                     <source src="media/theme.mp3" type="mpeg"/>
                     <p>Your browser does not support the audio element.</p>
@@ -55,7 +65,7 @@
         </section>
            <hr/>
            <!--Work-->
-           <section>
+           <section class="work">
             <h2 class="work-heading">Work</h2>
             <article>
                 <header>
@@ -93,8 +103,9 @@
            </article>
            </section>
            <hr/>
+           
 
-           <!--Rwsume-->
+           <!--Resume-->
            <section class="resume" aria-labelledby="resume-heading">
             <h2 cklass="resume-heading">Resume</h2>
             <article>
@@ -114,11 +125,12 @@
                 <p>
                 Download a local copy of my resume:
                 <a href="files/EMMANUEL-Resume.pdf" download>Resume (PDF)</a>
-
+             
                 </p>
             </article>
            </section>
            <hr/>
+           
 
            <!--Contact-->
            <section class="contact" aria-labelledby="contact-heading">
@@ -151,8 +163,8 @@
             </address>
            </section>
     </main>
-
-    <footer>
+            <!--Footer-->
+         <footer class="footer">
         <p>
             <time datetime="2025">2025</time> EMMANUEL. All rights reserved.
             <a href="home">Back to top</a>
